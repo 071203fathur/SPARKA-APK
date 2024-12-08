@@ -7,6 +7,28 @@
     tools:context="com.ui.pilihparkir.BagianDepan">
 
 
+
+    <LinearLayout
+        android:id="@+id/linearLayoutImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageViewHeader"
+            android:layout_width="440dp"
+            android:layout_height="120dp"
+            android:src="@drawable/depan"
+            android:scaleType="fitCenter" />
+
+    </LinearLayout>
+
+    <!-- LinearLayout yang sudah ada -->
     <LinearLayout
         android:id="@+id/linearLayout4"
         android:layout_width="match_parent"
@@ -17,7 +39,7 @@
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linearLayoutImage"
         tools:ignore="MissingPrefix">
 
         <LinearLayout
@@ -76,6 +98,7 @@
         </LinearLayout>
     </LinearLayout>
 
+
     <HorizontalScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -110,6 +133,7 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/gotham"
                     android:textColor="@color/bluespark"
+                    android:text="1"
                     android:textSize="18sp" />
 
             </FrameLayout>
@@ -133,7 +157,8 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/gotham"
                     android:textColor="@color/bluespark"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:text="2"/>
 
             </FrameLayout>
 
@@ -156,7 +181,8 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/gotham"
                     android:textColor="@color/bluespark"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:text="3"/>
 
             </FrameLayout>
 
@@ -179,7 +205,8 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/gotham"
                     android:textColor="@color/bluespark"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:text="4"/>
 
             </FrameLayout>
 
@@ -202,7 +229,8 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/gotham"
                     android:textColor="@color/bluespark"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:text="5"/>
 
             </FrameLayout>
 
@@ -226,7 +254,8 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/gotham"
                     android:textColor="@color/bluespark"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:text="6"/>
 
             </FrameLayout>
 
@@ -249,7 +278,8 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/gotham"
                     android:textColor="@color/bluespark"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:text="7"/>
 
             </FrameLayout>
 
@@ -272,7 +302,8 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/gotham"
                     android:textColor="@color/bluespark"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:text="8"/>
 
             </FrameLayout>
 
@@ -295,7 +326,8 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/gotham"
                     android:textColor="@color/bluespark"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:text="9"/>
 
             </FrameLayout>
 
@@ -318,7 +350,8 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/gotham"
                     android:textColor="@color/bluespark"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:text="10"/>
 
             </FrameLayout>
 
@@ -341,7 +374,8 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/gotham"
                     android:textColor="@color/bluespark"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:text="11"/>
 
             </FrameLayout>
 
@@ -364,7 +398,8 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/gotham"
                     android:textColor="@color/bluespark"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:text="12"/>
 
             </FrameLayout>
 
@@ -387,7 +422,8 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/gotham"
                     android:textColor="@color/bluespark"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:text="13"/>
 
             </FrameLayout>
 
@@ -411,7 +447,8 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/gotham"
                     android:textColor="@color/bluespark"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:text="14"/>
 
             </FrameLayout>
 
@@ -434,7 +471,8 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/gotham"
                     android:textColor="@color/bluespark"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:text="15"/>
 
             </FrameLayout>
 
@@ -458,7 +496,8 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/gotham"
                     android:textColor="@color/bluespark"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:text="16"/>
 
             </FrameLayout>
 
@@ -481,7 +520,8 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/gotham"
                     android:textColor="@color/bluespark"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:text="17"/>
 
             </FrameLayout>
 
@@ -504,7 +544,8 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/gotham"
                     android:textColor="@color/bluespark"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:text="18"/>
 
             </FrameLayout>
 
@@ -527,7 +568,8 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/gotham"
                     android:textColor="@color/bluespark"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:text="19"/>
 
             </FrameLayout>
 
@@ -550,7 +592,8 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/gotham"
                     android:textColor="@color/bluespark"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:text="20"/>
 
             </FrameLayout>
 
@@ -573,7 +616,8 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/gotham"
                     android:textColor="@color/bluespark"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:text="21"/>
 
             </FrameLayout>
 
@@ -596,7 +640,8 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/gotham"
                     android:textColor="@color/bluespark"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:text="22"/>
 
             </FrameLayout>
 
@@ -619,7 +664,8 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/gotham"
                     android:textColor="@color/bluespark"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:text="23"/>
 
             </FrameLayout>
 
@@ -642,7 +688,8 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/gotham"
                     android:textColor="@color/bluespark"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:text="24"/>
 
             </FrameLayout>
 

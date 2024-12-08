@@ -13,5 +13,8 @@
     <color name="colorPrimaryDark">@color/bluespark</color>
     <color name="bluespark">#142B6F</color>
     <color name="colorAccent">#03DAC5</color>
+    <color name="gray">#808080</color>
+    <color name="gray_light">#D3D3D3</color>
+
 
 </resources>

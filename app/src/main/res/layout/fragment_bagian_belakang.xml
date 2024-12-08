@@ -8,6 +8,27 @@
 
 
     <LinearLayout
+        android:id="@+id/linearLayoutImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageViewHeader"
+            android:layout_width="440dp"
+            android:layout_height="130dp"
+            android:src="@drawable/belakang"
+            android:scaleType="fitCenter" />
+
+    </LinearLayout>
+
+    <!-- LinearLayout yang sudah ada -->
+    <LinearLayout
         android:id="@+id/linearLayout4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -17,7 +38,7 @@
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linearLayoutImage"
         tools:ignore="MissingPrefix">
 
         <LinearLayout
@@ -76,6 +97,7 @@
         </LinearLayout>
     </LinearLayout>
 
+
     <HorizontalScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -109,7 +131,8 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/gotham"
                     android:textColor="@color/bluespark"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:text="25"/>
 
             </FrameLayout>
 
@@ -125,6 +148,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/slot_empty" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/gotham"
+                    android:textColor="@color/bluespark"
+                    android:textSize="18sp"
+                    android:text="36"/>
             </FrameLayout>
 
             <FrameLayout
@@ -139,6 +170,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/slot_empty" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/gotham"
+                    android:textColor="@color/bluespark"
+                    android:textSize="18sp"
+                    android:text="38"/>
             </FrameLayout>
 
             <FrameLayout
@@ -153,6 +192,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/slot_empty" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/gotham"
+                    android:textColor="@color/bluespark"
+                    android:textSize="18sp"
+                    android:text="40"/>
             </FrameLayout>
 
             <FrameLayout
@@ -167,6 +214,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/slot_empty" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/gotham"
+                    android:textColor="@color/bluespark"
+                    android:textSize="18sp"
+                    android:text="41"/>
             </FrameLayout>
 
             <FrameLayout
@@ -181,6 +236,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/slot_empty" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/gotham"
+                    android:textColor="@color/bluespark"
+                    android:textSize="18sp"
+                    android:text="42"/>
 
             </FrameLayout>
 
@@ -196,6 +259,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/slot_empty" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/gotham"
+                    android:textColor="@color/bluespark"
+                    android:textSize="18sp"
+                    android:text="43"/>
 
             </FrameLayout>
 
@@ -211,6 +282,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/slot_empty" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/gotham"
+                    android:textColor="@color/bluespark"
+                    android:textSize="18sp"
+                    android:text="44"/>
             </FrameLayout>
 
             <FrameLayout
@@ -225,6 +304,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/slot_empty" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/gotham"
+                    android:textColor="@color/bluespark"
+                    android:textSize="18sp"
+                    android:text="45"/>
             </FrameLayout>
 
             <FrameLayout
@@ -239,6 +326,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/slot_empty" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/gotham"
+                    android:textColor="@color/bluespark"
+                    android:textSize="18sp"
+                    android:text="46"/>
             </FrameLayout>
 
             <FrameLayout
@@ -253,6 +348,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/slot_empty" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/gotham"
+                    android:textColor="@color/bluespark"
+                    android:textSize="18sp"
+                    android:text="47"/>
             </FrameLayout>
 
             <FrameLayout
@@ -267,6 +370,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/slot_empty" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/gotham"
+                    android:textColor="@color/bluespark"
+                    android:textSize="18sp"
+                    android:text="48"/>
             </FrameLayout>
 
             <FrameLayout
@@ -281,6 +392,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/slot_empty" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/gotham"
+                    android:textColor="@color/bluespark"
+                    android:textSize="18sp"
+                    android:text="49"/>
             </FrameLayout>
 
 
@@ -324,7 +443,8 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/gotham"
                     android:textColor="@color/bluespark"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:text="26"/>
 
             </FrameLayout>
 
@@ -347,7 +467,8 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/gotham"
                     android:textColor="@color/bluespark"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:text="27"/>
 
             </FrameLayout>
 
@@ -370,7 +491,8 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/gotham"
                     android:textColor="@color/bluespark"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:text="28"/>
 
             </FrameLayout>
 
@@ -416,7 +538,8 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/gotham"
                     android:textColor="@color/bluespark"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:text="29"/>
 
             </FrameLayout>
             <FrameLayout
@@ -438,7 +561,8 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/gotham"
                     android:textColor="@color/bluespark"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:text="30"/>
 
             </FrameLayout>
 
@@ -506,7 +630,8 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/gotham"
                     android:textColor="@color/bluespark"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:text="31"/>
 
             </FrameLayout>
 
@@ -552,7 +677,8 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/gotham"
                     android:textColor="@color/bluespark"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:text="32"/>
 
             </FrameLayout>
 
@@ -575,7 +701,8 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/gotham"
                     android:textColor="@color/bluespark"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:text="33"/>
 
             </FrameLayout>
 
@@ -598,7 +725,8 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/gotham"
                     android:textColor="@color/bluespark"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:text="34"/>
 
             </FrameLayout>
 
@@ -621,7 +749,8 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/gotham"
                     android:textColor="@color/bluespark"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:text="36"/>
 
             </FrameLayout>
 
@@ -665,7 +794,8 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/gotham"
                     android:textColor="@color/bluespark"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:text="37"/>
 
             </FrameLayout>
 
@@ -688,7 +818,8 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/gotham"
                     android:textColor="@color/bluespark"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:text="39"/>
 
             </FrameLayout>
 

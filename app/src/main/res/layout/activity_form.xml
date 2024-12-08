@@ -45,6 +45,7 @@
                         android:layout_toEndOf="@id/imageView"
                         android:paddingStart="50dp"
                         android:text="Tambah jadwal"
+                        android:fontFamily="@font/gotham"
                         android:textColor="@android:color/white"
                         android:textSize="18sp" />
 
@@ -120,26 +121,27 @@
                             <com.google.android.material.textfield.TextInputLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_marginBottom="8dp"
+                                android:layout_marginBottom="16dp"
                                 android:textColorHint="#FF8A99AF">
 
                                 <EditText
                                     android:id="@+id/nomorPlatField"
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:drawablePadding="16dp"
-                                    android:fontFamily="@font/calibri"
+                                    android:drawablePadding="20dp"
+                                    android:fontFamily="@font/gotham"
                                     android:hint="Nomor Plat"
                                     android:inputType="text"
                                     android:maxLines="1"
                                     android:textColor="@android:color/black"
-                                    android:textSize="16sp" />
+                                    android:textSize="16sp"
+                                    android:background="#FFFFFF"/>
                             </com.google.android.material.textfield.TextInputLayout>
 
                             <com.google.android.material.textfield.TextInputLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_marginBottom="8dp"
+                                android:layout_marginBottom="20dp"
                                 android:textColorHint="#FF8A99AF">
 
                                 <EditText
@@ -147,18 +149,19 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:drawablePadding="16dp"
-                                    android:fontFamily="@font/calibri"
                                     android:hint="Nama Pemesan"
+                                    android:fontFamily="@font/gotham"
                                     android:inputType="text"
                                     android:maxLines="1"
                                     android:textColor="@android:color/black"
-                                    android:textSize="16sp" />
+                                    android:textSize="16sp"
+                                    android:background="#FFFFFF"/>
                             </com.google.android.material.textfield.TextInputLayout>
 
                             <com.google.android.material.textfield.TextInputLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_marginBottom="8dp"
+                                android:layout_marginBottom="20dp"
                                 android:textColorHint="#FF8A99AF">
 
                                 <EditText
@@ -166,18 +169,19 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:drawablePadding="16dp"
-                                    android:fontFamily="@font/calibri"
                                     android:hint="Jenis Mobil"
+                                    android:fontFamily="@font/gotham"
                                     android:inputType="text"
                                     android:maxLines="1"
                                     android:textColor="@android:color/black"
-                                    android:textSize="16sp" />
+                                    android:textSize="16sp"
+                                    android:background="#FFFFFF"/>
                             </com.google.android.material.textfield.TextInputLayout>
 
                             <com.google.android.material.textfield.TextInputLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_marginBottom="8dp"
+                                android:layout_marginBottom="20dp"
                                 android:textColorHint="#FF8A99AF">
 
                                 <EditText
@@ -185,12 +189,13 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:drawablePadding="16dp"
-                                    android:fontFamily="@font/calibri"
                                     android:hint="Tempat Parkir"
+                                    android:fontFamily="@font/gotham"
                                     android:inputType="text"
                                     android:maxLines="1"
                                     android:textColor="@android:color/black"
                                     android:textSize="16sp"
+                                    android:background="#FFFFFF"
 
                                     android:focusable="false"
                                     android:focusableInTouchMode="false"
@@ -213,7 +218,7 @@
                         android:layout_marginEnd="16dp"
                         android:layout_marginBottom="16dp"
                         android:background="@drawable/buttonshape"
-                        android:fontFamily="@font/calibri"
+                        android:fontFamily="@font/gotham"
                         android:text="Simpan"
                         android:textAllCaps="false"
                         android:textColor="#ffffff"

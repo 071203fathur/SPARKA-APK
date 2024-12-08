@@ -63,7 +63,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="260dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/bgspark" />
+                        android:src="@drawable/musrek" />
 
 
 
@@ -94,6 +94,7 @@
                     android:foreground="?android:attr/selectableItemBackground"
                     app:cardCornerRadius="4dp"
                     app:cardUseCompatPadding="true"
+
                     app:contentPadding="16dp">
 
                     <LinearLayout
@@ -112,7 +113,7 @@
                                 android:id="@+id/parkir1"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="@font/calibri"
+                                android:fontFamily="@font/gotham"
                                 android:text="@string/mushollah_rektorat"
                                 android:textColor="#000000"
                                 android:textStyle="bold" />
@@ -122,7 +123,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="4dp"
                                 android:layout_marginBottom="4dp"
-                                android:fontFamily="@font/calibri"
+                                android:fontFamily="@font/gotham"
                                 android:text="Parkir Dosen dan Tamu"
                                 android:textColor="#4b4b4b"
                                 android:textStyle="bold" />
@@ -130,7 +131,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="@font/calibri"
+                                android:fontFamily="@font/gotham"
                                 android:text="Parkir dibelakang rektorat"
                                 android:textColor="#8a8a8a" />
 
@@ -147,7 +148,7 @@
                                 android:id="@+id/slotparkir"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="@font/calibri"
+                                android:fontFamily="@font/gotham"
                                 android:text="2/30"
                                 android:textAlignment="textEnd"
                                 android:textColor="#f5a622"
@@ -159,7 +160,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="4dp"
                                 android:layout_marginBottom="4dp"
-                                android:fontFamily="@font/calibri"
+                                android:fontFamily="@font/gotham"
                                 android:text="Ketersediaan Parkir"
                                 android:textAlignment="textEnd"
                                 android:textColor="#b3b3b3" />
@@ -197,7 +198,7 @@
                                 android:id="@+id/parkir2"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="@font/calibri"
+                                android:fontFamily="@font/gotham"
                                 android:text="DSIH"
                                 android:textColor="#000000"
                                 android:textStyle="bold" />
@@ -207,7 +208,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="4dp"
                                 android:layout_marginBottom="4dp"
-                                android:fontFamily="@font/calibri"
+                                android:fontFamily="@font/gotham"
                                 android:text="Parkir Dosen"
                                 android:textColor="#4b4b4b"
                                 android:textStyle="bold" />
@@ -215,7 +216,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="@font/calibri"
+                                android:fontFamily="@font/gotham"
                                 android:text="Parkir di depan Gedung DSIH"
                                 android:textColor="#8a8a8a" />
 
@@ -229,9 +230,10 @@
                             android:orientation="vertical">
 
                             <TextView
+                                android:id="@+id/slotparkir2"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="@font/calibri"
+                                android:fontFamily="@font/gotham"
                                 android:text="3/40"
                                 android:textAlignment="textEnd"
                                 android:textColor="#f5a622"
@@ -243,7 +245,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="4dp"
                                 android:layout_marginBottom="4dp"
-                                android:fontFamily="@font/calibri"
+                                android:fontFamily="@font/gotham"
                                 android:text="Ketersediaan Parkir"
                                 android:textAlignment="textEnd"
                                 android:textColor="#b3b3b3" />
@@ -279,7 +281,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="@font/calibri"
+                                android:fontFamily="@font/gotham"
                                 android:text="L2M"
                                 android:textColor="#000000"
                                 android:textStyle="bold" />
@@ -289,7 +291,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="4dp"
                                 android:layout_marginBottom="4dp"
-                                android:fontFamily="@font/calibri"
+                                android:fontFamily="@font/gotham"
                                 android:text="Parkir Dosen"
                                 android:textColor="#4b4b4b"
                                 android:textStyle="bold" />
@@ -297,7 +299,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="@font/calibri"
+                                android:fontFamily="@font/gotham"
                                 android:text="parkiran samping gerbang"
                                 android:textColor="#8a8a8a" />
 
@@ -313,7 +315,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="@font/calibri"
+                                android:fontFamily="@font/gotham"
                                 android:text="10/30"
                                 android:textAlignment="textEnd"
                                 android:textColor="#f5a622"
@@ -325,7 +327,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="4dp"
                                 android:layout_marginBottom="4dp"
-                                android:fontFamily="@font/calibri"
+                                android:fontFamily="@font/gotham"
                                 android:text="Ketersediaan Parkir"
                                 android:textAlignment="textEnd"
                                 android:textColor="#b3b3b3" />
@@ -361,7 +363,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="@font/calibri"
+                                android:fontFamily="@font/gotham"
                                 android:text="LP3M"
                                 android:textColor="#000000"
                                 android:textStyle="bold" />
@@ -371,7 +373,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="4dp"
                                 android:layout_marginBottom="4dp"
-                                android:fontFamily="@font/calibri"
+                                android:fontFamily="@font/gotham"
                                 android:text="Parkir Umum"
                                 android:textColor="#4b4b4b"
                                 android:textStyle="bold" />
@@ -379,7 +381,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="@font/calibri"
+                                android:fontFamily="@font/gotham"
                                 android:text="-"
                                 android:textColor="#8a8a8a" />
 
@@ -395,7 +397,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="@font/calibri"
+                                android:fontFamily="@font/gotham"
                                 android:text="11/40"
                                 android:textAlignment="textEnd"
                                 android:textColor="#f5a622"
@@ -407,7 +409,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="4dp"
                                 android:layout_marginBottom="4dp"
-                                android:fontFamily="@font/calibri"
+                                android:fontFamily="@font/gotham"
                                 android:text="Ketersediaan Parkir"
                                 android:textAlignment="textEnd"
                                 android:textColor="#b3b3b3" />
@@ -443,7 +445,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="@font/calibri"
+                                android:fontFamily="@font/gotham"
                                 android:text="PKM"
                                 android:textColor="#000000"
                                 android:textStyle="bold" />
@@ -453,7 +455,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="4dp"
                                 android:layout_marginBottom="4dp"
-                                android:fontFamily="@font/calibri"
+                                android:fontFamily="@font/gotham"
                                 android:text="Parkir Umum"
                                 android:textColor="#4b4b4b"
                                 android:textStyle="bold" />
@@ -461,7 +463,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="@font/calibri"
+                                android:fontFamily="@font/gotham"
                                 android:text="-"
                                 android:textColor="#8a8a8a" />
 
@@ -477,7 +479,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="@font/calibri"
+                                android:fontFamily="@font/gotham"
                                 android:text="7/10"
                                 android:textAlignment="textEnd"
                                 android:textColor="#f5a622"
@@ -489,7 +491,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="4dp"
                                 android:layout_marginBottom="4dp"
-                                android:fontFamily="@font/calibri"
+                                android:fontFamily="@font/gotham"
                                 android:text="Ketersediaan Parkir"
                                 android:textAlignment="textEnd"
                                 android:textColor="#b3b3b3" />

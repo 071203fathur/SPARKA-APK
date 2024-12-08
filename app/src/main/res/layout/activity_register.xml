@@ -39,33 +39,53 @@
             android:layout_gravity="center"
             android:textColor="@color/bluespark"
             android:textSize="32sp"
-            android:text="Masuk"/>
+            android:fontFamily="@font/gotham"
+            android:text="Registrasi"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Nama Lengkap"
             android:alpha="0.7"
-            android:textStyle="bold"/>
+            android:fontFamily="@font/gotham"
+            android:textStyle="bold"
+            android:textColor="@color/gray"/>
 
         <EditText
             android:id="@+id/NameEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="text"/>
+            android:inputType="text"
+            android:background="@drawable/text_field_background"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:fontFamily="@font/gotham"
+            android:hint="Masukkan Nama"
+            app:hintTextColor="@color/gray_light"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Email"
             android:alpha="0.7"
-            android:textStyle="bold"/>
+            android:fontFamily="@font/gotham"
+            android:textStyle="bold"
+
+            android:textColor="@color/gray"/>
 
         <com.example.bottomnavyt.costumview.EmailText
             android:id="@+id/EmailText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="text"/>
+            android:inputType="text"
+            android:background="@drawable/text_field_background"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:fontFamily="@font/gotham"
+            android:hint="Masukkan Email"
+            app:hintTextColor="@color/gray_light"/>
 
 
         <TextView
@@ -73,13 +93,21 @@
             android:layout_height="wrap_content"
             android:text="Password"
             android:alpha="0.7"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:textColor="@color/gray"/>
 
         <com.example.bottomnavyt.costumview.PasswordText
             android:id="@+id/PasswordText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textPassword"/>
+            android:inputType="textPassword"
+            android:background="@drawable/text_field_background"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:hint="Masukkan Password"
+            android:fontFamily="@font/gotham"
+            app:hintTextColor="@color/gray_light"/>
 
 
         <TextView
@@ -87,13 +115,22 @@
             android:layout_height="wrap_content"
             android:text="Alamat"
             android:alpha="0.7"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:fontFamily="@font/gotham"
+            android:textColor="@color/gray"/>
 
         <EditText
             android:id="@+id/AddressEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="text"/>
+            android:inputType="text"
+            android:background="@drawable/text_field_background"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:fontFamily="@font/gotham"
+            android:hint="Masukkan Alamat"
+            app:hintTextColor="@color/gray_light"/>
 
 
         <TextView
@@ -101,13 +138,22 @@
             android:layout_height="wrap_content"
             android:text="Nomor HP"
             android:alpha="0.7"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:fontFamily="@font/gotham"
+            android:textColor="@color/gray"/>
 
         <EditText
             android:id="@+id/PhoneEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="text"/>
+            android:inputType="text"
+            android:background="@drawable/text_field_background"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:fontFamily="@font/gotham"
+            android:hint="Masukkan Nomor HP"
+            app:hintTextColor="@color/gray_light"/>
 
 <!--        <TextView-->
 <!--            android:layout_width="wrap_content"-->
@@ -133,6 +179,7 @@
             android:foreground="?android:attr/selectableItemBackground"
             android:textColor="@color/white"
             android:layout_gravity="center"
+            android:fontFamily="@font/gotham"
             android:backgroundTint="@color/bluespark"
             android:text="@string/register"/>
 
